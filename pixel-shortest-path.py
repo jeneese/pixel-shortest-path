@@ -115,11 +115,9 @@ while(xPosition < greyImageWidth): #Loops through each row
         #Otherwise, set the value in the matrix to 999 and add the current x and y positions to their lists.
         if(centerPixel not in V):
             matrix[yPosition][xPosition] = 0
-            greyImage.itemset(yPosition, xPosition, 0)
         else:
             xyList.append([xPosition,yPosition])
             matrix[yPosition][xPosition] = 999
-            greyImage.itemset(yPosition, xPosition, 127)
 
         yPosition = yPosition + 1 #Increment Y position by 1
 
