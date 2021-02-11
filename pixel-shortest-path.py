@@ -108,8 +108,7 @@ matrix = np.zeros(shape=(greyImageHeight,greyImageWidth)) #Creates matrix to eva
 while(xPosition < greyImageWidth): #Loops through each row
     while(yPosition < greyImageHeight): #Loops through each column
 
-        centerPixel = greyImage[yPosition, xPosition] #Sets centerPixel to number for the intensity for the current x and y pixel position
-        int(centerPixel)
+        centerPixel = int(greyImage[yPosition, xPosition]) #Sets centerPixel to number for the intensity for the current x and y pixel position
 
         #If the current pixel intensity in centerPixel is not in set V, set the value at the same x and y pixel position in the matrix to 0.
         #Otherwise, set the value in the matrix to 999 and add the current x and y positions to their lists.
