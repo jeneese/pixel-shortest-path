@@ -1,6 +1,6 @@
 # Shortest path between two pixels within an intensity range
 
-This program uses [Djikstra's algorithm](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm) to determine the shortest path between two pixels in an image within a range of intensities.
+This Python script uses [Djikstra's algorithm](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm) to determine the shortest path between two pixels in an image within a range of intensities.
 
 ## Installation
 
